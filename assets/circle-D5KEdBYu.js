@@ -1,0 +1,1 @@
+import{w as e}from"./index-COQt-Z2L.js";var t=e(`circle`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}]]);export{t};
