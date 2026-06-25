@@ -1,0 +1,1 @@
+import{u as e}from"./proxy-6CaK6RIN.js";var t=e(`gauge`,[[`path`,{d:`m12 14 4-4`,key:`9kzdfg`}],[`path`,{d:`M3.34 19a10 10 0 1 1 17.32 0`,key:`19p75a`}]]),n=e(`minus`,[[`path`,{d:`M5 12h14`,key:`1ays0h`}]]);export{t as n,n as t};
