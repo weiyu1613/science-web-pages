@@ -1,1 +1,0 @@
-import{B as e}from"./index-DiJDq0-V.js";var t=e(`circle`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}]]);export{t};
