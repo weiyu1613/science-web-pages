@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <meta name="theme-color" content="#6366f1" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>学科知识互动 - 让学习更生动</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      // 立即注销旧的 Service Worker，确保用户总能看到最新版本
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for (var registration of registrations) {
+            registration.unregister().then(function() {
+              console.log('[SW] 旧Service Worker已注销，刷新后加载最新版本');
+            });
+          }
+        }).catch(function(err) {
+          console.log('[SW] 注销失败:', err);
+        });
+        // 清除所有缓存存储
+        if ('caches' in window) {
+          caches.keys().then(function(names) {
+            for (var name of names) {
+              caches.delete(name);
+            }
+          });
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-BDkfD8Vd.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/proxy-CHu4vMBl.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-BZXXjOkF.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
